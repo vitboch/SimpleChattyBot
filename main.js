@@ -21,4 +21,12 @@ const remainder7 = input('> ')
 
 const age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105
 
-console.log(`Your age is ${age}; that's a good time to start programming!`)
+console.log(`Your age is ${age}; that's a good time to start programming!
+Now I will prove to you that I can count to any number you want.`)
+
+let count = input()
+
+for (let i = 0; i <= count; i++) {
+    console.log(`${i} !`)
+}
+console.log(`Completed, have a nice day!`)
